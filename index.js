@@ -68,10 +68,8 @@ function checkDraw() {
 
 // Display the winner or draw
 function displayWinner(winner) {
-  console.log(winner);
   let winnerText =
     winner === "Draw" ? "It's a Draw!" : "Player " + winner + " wins!";
-  console.log(winnerText);
   $("#winner").text(winnerText).removeClass("d-none");
 }
 
